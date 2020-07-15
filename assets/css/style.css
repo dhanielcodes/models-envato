@@ -516,9 +516,12 @@ form input{
     font-family: 'Gilroy';
     font-size: 20px;
 }
-form a{
+form button{
     font-size: 18px;
     background: pink;
+    border: none;
+    outline: none;
+    cursor: pointer;
     text-decoration: none;
     color: black;
     padding: 20px 40px;
