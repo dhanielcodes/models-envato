@@ -694,7 +694,7 @@ footer .b{
         transition: all .3s;
     }
     .po.open{
-        height: 350px;
+        height: 100%;
     }
     footer .contact{
         padding: 0;
@@ -848,7 +848,7 @@ footer .b{
         justify-content: space-around;
     }
     .feat-imgs.open{
-        height: 2900px;
+        height: 100%;
         transition: all .4s;
     }
 }
