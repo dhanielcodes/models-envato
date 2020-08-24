@@ -848,7 +848,7 @@ footer .b{
         justify-content: space-around;
     }
     .feat-imgs.open{
-        height: 2460px;
+        height: 2660px;
         transition: all .4s;
     }
 }
