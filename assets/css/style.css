@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 body{
@@ -448,8 +449,11 @@ p{
 /* BLOG */
 .blog{
     margin-top: 50px;
-    display: grid;
-    place-items: center;
+}
+.blogs{
+       display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .blog h1{
     text-align: center;
@@ -457,7 +461,7 @@ p{
     margin: 50px 0;
 }
 .blog .peeps{
-    width: 100%;
+    width: 300px;
 }
 .blog .peeps img{
     object-fit: cover;
